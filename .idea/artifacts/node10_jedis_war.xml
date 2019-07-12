@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="node10-jedis:war">
+    <output-path>$PROJECT_DIR$/node10-jedis/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>node10-jedis</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="yongorg.war">
+      <element id="artifact" artifact-name="node10-jedis:war exploded" />
+    </root>
+  </artifact>
+</component>

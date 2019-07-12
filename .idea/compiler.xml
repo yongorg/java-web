@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="topic02-dbutils" />
+        <module name="node9-filter&amp;listener" />
+        <module name="node8-anli-CRUD" />
+        <module name="node2-JDBC" />
+        <module name="node10-jedis" />
+        <module name="node5-loginbyrequest" />
+        <module name="node3-jdbcpool" />
+        <module name="node9_filter_listener" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="node10-jedis" target="1.7" />
+      <module name="node2-JDBC" target="6" />
+      <module name="node3-jdbcpool" target="1.5" />
+      <module name="node5-loginbyrequest" target="1.7" />
+      <module name="node5login" target="1.5" />
+      <module name="node6-Response" target="1.7" />
+      <module name="node7-cookie-session" target="1.7" />
+      <module name="node7cookie_session" target="1.7" />
+      <module name="node7cookiesession" target="1.5" />
+      <module name="node8-anli-CRUD" target="1.7" />
+      <module name="node8-mvc-jsp-el-jstl" target="1.7" />
+      <module name="node9-filter&amp;listener" target="1.5" />
+      <module name="node9_filter_listener" target="1.7" />
+      <module name="topc01-dao-jdbc" target="1.5" />
+      <module name="topic01-dao-jdbc" target="1.5" />
+      <module name="topic02-dbutils" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

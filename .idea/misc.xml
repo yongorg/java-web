@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/node10-jedis" />
+    <file type="web" url="file://$PROJECT_DIR$/node5-loginbyrequest" />
+    <file type="web" url="file://$PROJECT_DIR$/node6-Response" />
+    <file type="web" url="file://$PROJECT_DIR$/node7-cookie-session" />
+    <file type="web" url="file://$PROJECT_DIR$/node8-mvc-jsp-el-jstl" />
+    <file type="web" url="file://$PROJECT_DIR$/node9_filter_listener" />
+    <file type="web" url="file://$PROJECT_DIR$/../java-webl/node8-anli-CRUD" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/node3jdbcpoolmaven/pom.xml" />
+        <option value="$PROJECT_DIR$/node2-JDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/node3-jdbcpool/pom.xml" />
+        <option value="$PROJECT_DIR$/topic01-dao-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/node5login/pom.xml" />
+        <option value="$PROJECT_DIR$/node5-loginbyrequest/pom.xml" />
+        <option value="$PROJECT_DIR$/node6-Response/pom.xml" />
+        <option value="$PROJECT_DIR$/node9-filter&amp;listener/pom.xml" />
+        <option value="$PROJECT_DIR$/node9_filter_listener/pom.xml" />
+        <option value="$PROJECT_DIR$/node10-jedis/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

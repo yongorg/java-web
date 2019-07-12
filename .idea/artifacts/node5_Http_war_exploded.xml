@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="node5-Http:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/node5_Http_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="node5-Http&amp;Request/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="node5-Http&amp;Request" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

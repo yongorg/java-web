@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="node8-mvc-jsp-el-jstl:war">
+    <output-path>$PROJECT_DIR$/node8-mvc-jsp-el-jstl/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>node8-mvc-jsp-el-jstl</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="node8-mvc-jsp-el-jstl.war">
+      <element id="artifact" artifact-name="node8-mvc-jsp-el-jstl:war exploded" />
+    </root>
+  </artifact>
+</component>

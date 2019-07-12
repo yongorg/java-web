@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="node6-Response:war">
+    <output-path>$PROJECT_DIR$/node6-Response/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>node6-Response</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="node6-Response.war">
+      <element id="artifact" artifact-name="node6-Response:war exploded" />
+    </root>
+  </artifact>
+</component>

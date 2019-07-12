@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="node8-anli-CRUD:war">
+    <output-path>$PROJECT_DIR$/../java-webl/node8-anli-CRUD/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>node8-anli-CRUD</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="anli.war">
+      <element id="artifact" artifact-name="node8-anli-CRUD:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="node9_filter_listener:war">
+    <output-path>$PROJECT_DIR$/node9_filter_listener/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>node9_filter_listener</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="yongorg.war">
+      <element id="artifact" artifact-name="node9_filter_listener:war exploded" />
+    </root>
+  </artifact>
+</component>

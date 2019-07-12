@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body>
+<form action="/node6/checkCodeServlet" method="post">
+    username:<input name="username" placeholder="请输入用户名" type="text" required="required" id="username" /><br>
+    password:<input name="password" placeholder="请输入密码" type="password" required="required" id="password" /><br>
+    tel:<input name="tel" placeholder="请输入密码" type="tel" required="required" id="tel" /><br>
+    <input type="text"> <img src="/node6/checkCodeServlet" alt=""><a href="">看不清换一张</a><br>
+    <input type="checkbox" name="hobby" value="game">游戲
+    <input type="checkbox" name="hobby" value="study">學習 <br>
+    <input type="submit" value="注册">
+</form>
+</body>
+<script type="text/javascript">
+    $(function(){
+        $("img").click(function () {
+            // 加时间戳
+            var time = new Date().getTime();
+            $("img").attr("src","/node6/checkCodeServlet?"+time);
+        })
+
+    })
+
+</script>
+</html>

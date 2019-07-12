@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="node5-loginbyrequest:war">
+    <output-path>$PROJECT_DIR$/node5-loginbyrequest/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>node5-loginbyrequest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="node5-login.war">
+      <element id="artifact" artifact-name="node5-loginbyrequest:war exploded" />
+    </root>
+  </artifact>
+</component>

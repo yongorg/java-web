@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="node7-cookie-session:war">
+    <output-path>$PROJECT_DIR$/node7-cookie-session/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>node7-cookie-session</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="node7-cookie-session.war">
+      <element id="artifact" artifact-name="node7-cookie-session:war exploded" />
+    </root>
+  </artifact>
+</component>

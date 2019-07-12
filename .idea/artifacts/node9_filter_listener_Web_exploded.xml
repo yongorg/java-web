@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="node9-filter&amp;listener:Web exploded">
+    <output-path>$PROJECT_DIR$/node9-filter&amp;listener//target/node9-filter$listener/</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="node9-filter&amp;listener/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="node9-filter&amp;listener" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
